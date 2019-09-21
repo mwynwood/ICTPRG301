@@ -1,5 +1,5 @@
 # HANGMAN
-# This is a starting point you can use to base you project on, if you choose.
+# This is a starting point for the Hangman game.
 #
 # Name: 
 # Last Updated: 21/9/2019 
@@ -61,6 +61,6 @@ while turns > 0:
         # If the guess is not in the secret word, lose a life!
         if guess not in secretWord:
             turns = turns - 1
-            print("TODO: what happens when the get it wrong?")
+            print("TODO: what happens when they get it wrong?")
             if turns == 0:
                 print ("You Loose")
