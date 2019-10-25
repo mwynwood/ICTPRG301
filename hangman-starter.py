@@ -26,12 +26,12 @@ print ("")
 print ("Hangman")
 
 print("TODO: read file into a list, or use a preset list of words")
-secretWord = "TODO"
-#print(secretWord)
+secret_word = "TODO"
+#print(secret_word)
 
 print("TODO: read value form file, if the file is not there set an initial score")
-bestScore = 0
-print("The score to beat is: ", bestScore)
+best_score = 0
+print("The score to beat is: ", best_score)
 
 guess = ''
 guesses = ''
@@ -41,7 +41,7 @@ turns = 7
 while turns > 0:
     # Print out the secret word, with some letters hidden
     blanks = 0 
-    for letter in secretWord:
+    for letter in secret_word:
         if letter in guesses:
             print("TODO: print something here", end='')
         else:
@@ -59,7 +59,7 @@ while turns > 0:
         guesses = guesses + guess # add new guess to guessed letters
 
         # If the guess is not in the secret word, lose a life!
-        if guess not in secretWord:
+        if guess not in secret_word:
             turns = turns - 1
             print("TODO: what happens when they get it wrong?")
             if turns == 0:

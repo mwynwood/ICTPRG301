@@ -17,8 +17,8 @@
 
 secret = 42 #random?
 guess = 0
-guessCount = 0
-guessTotal = 7
+guess_count = 0
+guess_total = 7
 
 print("GUESS THE NUMBER")
 print("Guess the number between 1 and 100.")
@@ -27,10 +27,10 @@ while True:
     print("")
     print("Guesses remaining: ")
     guess = int(input('Your guess: '))
-    guessCount = guessCount + 1
+    guess_count = guess_count + 1
     
     print("Too high")
     
     print("Too low")
     
-    print("You win! You got it in " + str(guessCount) + " guesses!")
+    print("You win! You got it in " + str(guess_count) + " guesses!")

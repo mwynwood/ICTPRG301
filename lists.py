@@ -1,46 +1,46 @@
 # List Examples
 
 # Make an empty list
-myList = []
+my_list = []
 
 # Make a list of integers
-myList = [42, 105, 234, 142, 49, 25, 69]
+my_list = [42, 105, 234, 142, 49, 25, 69]
 
 # Print the list
-print(myList)
+print(my_list)
 
 # Sort the list
-myList.sort()
+my_list.sort()
 
 # Add an item to the list
-myList.append("We are the Borg")
+my_list.append("We are the Borg")
 
 # Add multiple items in one go
-myList.extend(["Resistance", "is", "futile"])
+my_list.extend(["Resistance", "is", "futile"])
 
 # Print the list
-print(myList)
+print(my_list)
 
 # Count the length of a list
-print("List Length:", len(myList))
+print("List Length:", len(my_list))
 
 # Print the item at position 1
-print(myList[1])
+print(my_list[1])
 
 # Change the item in position 0
-myList[0] = 42
+my_list[0] = 42
 
 # Print the list
-print(myList)
+print(my_list)
 
 # Remove the item in position 2
-myList.pop(2)
+my_list.pop(2)
 
 # Print the list
-print(myList)
+print(my_list)
 
 # Remove an item by value
-myList.remove(42)
+my_list.remove(42)
 
 # Print the list
-print(myList)
+print(my_list)
