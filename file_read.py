@@ -1,7 +1,7 @@
 # Read a line form a File
 #
 # This example opens a file, reads the first line,
-# and stores it as an INT in a variable called "value",
+# and stores it as an Integer in a variable called "value",
 # and then closes the file.
 # If the file can not be found, it sets "value" to 0
 #

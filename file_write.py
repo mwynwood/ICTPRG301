@@ -3,7 +3,7 @@
 # This example opens a file for writing, writes the value of 
 # the variable "value" as a String, and then closes the file.
 # If the file can not be found, the file will be created.
-# If the file can not be written to, if will display an error.
+# If the file can not be written to, it will display an error.
 #
 # The code lives inside a TRY-EXCEPT block which
 # allows us to deal with any errors, and carry on.
