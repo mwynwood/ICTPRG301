@@ -7,8 +7,8 @@
 
 try:
     with open("myfile.txt","r") as f:
-        myList = f.read().splitlines()
+        my_list = f.read().splitlines()
         f.close()
 except:
     print("Error reading file. Populating list with other things")
-    myList = ["apple", "banana", "pear", "orange", "grape"]
+    my_list = ["apple", "banana", "pear", "orange", "grape"]
