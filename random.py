@@ -1,4 +1,4 @@
-# Computers can not create truely random numbers.
+# Computers can not create truly random numbers.
 # Instead, they create pseudorandom numbers by using a complex 
 # alrogithm to produce a series of numbers that appear to be random.
 # For most cases pseudorandom numbers are adequate.
