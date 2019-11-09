@@ -2,7 +2,7 @@
 # This is a starting point for the Guess the Number game.
 #
 # Name: 
-# Last Updated: 21/9/2019 
+# Last Updated: 9 Nov 2019
 #
 # The source code file name should be "guess-YOURNAME" with the appropriate extension
 # The game explains the rules
@@ -15,10 +15,11 @@
 # Your code must adhere to the "PEP 8 -- Style Guide for Python Code". If you are using another language, consult with your teacher for the appropriate style guide.
 # Your code must contain comments explaining clearly how your code works
 
-secret = 42 #random?
-guess = 0
-guess_count = 0
-guess_total = 7
+# Declare and initialise game variables
+secret = 42 # Should be a random number
+guess = 0 # The users current guess
+guess_count = 0 # Keeps track of how many guesses the player has had
+guess_max = 7 # The total number of guesses the player can have
 
 print("GUESS THE NUMBER")
 print("Guess the number between 1 and 100.")

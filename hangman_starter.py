@@ -2,7 +2,7 @@
 # This is a starting point for the Hangman game.
 #
 # Name: 
-# Last Updated: 21/9/2019 
+# Last Updated: 9 Nov 2019
 #
 # The source code file name should be "hangman-YOURNAME" with the appropriate extension
 # The game explains the rules
@@ -22,17 +22,17 @@
 # Your code must adhere to the "PEP 8 -- Style Guide for Python Code". If you are using another language, consult with your teacher for the appropriate style guide.
 # Your code must contain comments explaining clearly how your code works
 
-print ("")
 print ("Hangman")
 
 print("TODO: read file into a list, or use a preset list of words")
-secret_word = "TODO"
+secret_word = "telecaster"
 #print(secret_word)
 
 print("TODO: read value form file, if the file is not there set an initial score")
 best_score = 0
 print("The score to beat is: ", best_score)
 
+# Declare and initialise game variables
 guess = ''
 guesses = ''
 turns = 7
@@ -43,9 +43,9 @@ while turns > 0:
     blanks = 0 
     for letter in secret_word:
         if letter in guesses:
-            print("TODO: print something here", end='')
+            print("?", end='')
         else:
-            print("TODO: print something here", end='')
+            print("?", end='')
             blanks = blanks + 1
     print("")
 
