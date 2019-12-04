@@ -32,6 +32,8 @@ email6 = "captain@enterprise.com"
 
 # Now let's store that info in our database
 # The ? is used as a placeholder for our variables
+# A query where placeholders are used for parameters is called a "parameterized query"
+# Parameterized Queries reduce execution time and prevent SQL injection attacks
 # Don't just put strings directly into your query, that's a massive security risk!
 cursor.execute('''INSERT INTO users(name, email) VALUES(?,?)''', (name1, email1))
 cursor.execute('''INSERT INTO users(name, email) VALUES(?,?)''', (name2, email2))
